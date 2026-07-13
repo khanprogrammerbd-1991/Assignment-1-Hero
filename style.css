@@ -97,3 +97,38 @@
 }
 
 /* hero section end */
+.speakers h2 {
+    margin: 30px auto;
+}
+
+.meet-the-speakers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* speakers section final */
+.speakers {
+    width: 1280px;
+    margin: 60px;
+}
+
+.header-meet {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+
+.speaker-feature {
+    gap: 25px;
+    padding: 25px;
+}
+
+.speaker-feature p span {
+    color: #2563eb;
+}
+
+.speaker-feature h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
