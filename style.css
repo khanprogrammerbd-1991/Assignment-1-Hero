@@ -48,3 +48,52 @@
 }
 
 /* navbar section end */
+
+/* hero section start */
+
+.hero {
+    background-image: url(./images/banner.jpg);
+    height: 600px;
+    width: 1551px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.overlay {
+    background-color: rgb(rgb(36, 33, 33), green, blue);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.content h2 {
+    font-weight: 700;
+    font-size: 80px;
+    margin-top: 50px;
+}
+
+.content p {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.hero-btn {
+    background-color: #1d4ed8FF;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    color: #ffffff;
+}
+
+/* hero section end */
