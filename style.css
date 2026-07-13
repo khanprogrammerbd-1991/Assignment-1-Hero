@@ -148,6 +148,29 @@
     align-self: center;
     min-width: 1551px;
     margin: 40px;
+}
 
+/* footer section */
 
+.footer {
+    background-color: #0d1b2a;
+    width: 1551px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-right: 40px;
+
+}
+
+.footer-left {
+    margin-left: 40px;
 }
