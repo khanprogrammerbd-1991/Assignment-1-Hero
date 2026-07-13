@@ -132,3 +132,22 @@
     font-weight: bold;
     font-size: 20px;
 }
+
+/* price section start */
+
+.secure-header {
+    justify-content: center;
+    text-align: center;
+}
+
+.card-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    min-width: 1551px;
+    margin: 40px;
+
+
+}
