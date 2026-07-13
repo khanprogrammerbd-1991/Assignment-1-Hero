@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    max width: 1280px;
+    max-width: 1280px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* navbar section start */
@@ -60,7 +61,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 .overlay {
@@ -72,15 +72,12 @@
     text-align: center;
     justify-content: space-between;
     align-items: center;
-
-
 }
 
 .content {
     color: #ffffff;
     justify-content: center;
     text-align: center;
-
 }
 
 .content h2 {
@@ -104,6 +101,8 @@
 }
 
 /* hero section end */
+
+/* meet the speakers section start */
 .speakers h2 {
     margin: 30px auto;
 }
@@ -180,7 +179,7 @@
     color: blue;
     margin-bottom: 20px;
 }
- 
+
 
 .feature {
     display: flex;
@@ -191,7 +190,7 @@
     gap: 10px;
 }
 
-.venue{
+.venue {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -200,13 +199,13 @@
     width: 1280px;
 }
 
-.venue-header{
+.venue-header {
     display: flex;
     flex-direction: column;
     margin-left: 40px;
-   
     row-gap: 20px;
 }
+
 /* footer section */
 
 .footer {
