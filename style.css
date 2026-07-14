@@ -190,6 +190,8 @@
     gap: 10px;
 }
 
+/* venue section start */
+
 .venue {
     display: flex;
     flex-direction: row;
